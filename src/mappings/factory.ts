@@ -1,5 +1,5 @@
 /* eslint-disable prefer-const */
-import { Address, BigInt, log } from '@graphprotocol/graph-ts'
+import { BigInt, log } from '@graphprotocol/graph-ts'
 import { PoolCreated } from '../types/Factory/Factory'
 import { Factory, Pool, Token } from '../types/schema'
 import { Pool as PoolTemplate } from '../types/templates'
@@ -7,15 +7,6 @@ import { fetchTokenDecimals, fetchTokenName, fetchTokenSymbol } from '../utils/t
 import { ADDRESS_ZERO, FACTORY_ADDRESS, ONE_BI, ZERO_BI } from './../utils/constants'
 
 export function handlePoolCreated(event: PoolCreated): void {
-  // temp fix
-  if (
-    event.params.pool == Address.fromHexString('0x8fe8d9bb8eeba3ed688069c3d6b556c9ca258248') ||
-    event.params.pool == Address.fromHexString('0x476c6cdf24c269a61d544feb4d3bfdf4afe2cae7')
-  ) {
-    return
-  }
-
-
   // load factory
   let factory = Factory.load(FACTORY_ADDRESS)
   if (factory === null) {

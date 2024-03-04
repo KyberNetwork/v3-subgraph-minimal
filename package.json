@@ -5,8 +5,7 @@
   "license": "GPL-3.0-or-later",
   "scripts": {
     "codegen": "graph codegen --output-dir src/types/",
-    "build": "graph build",
-    "deploy": "graph deploy --product hosted-service lehainam-dev/uniswap-v3-polygon-minimal"
+    "build": "graph build"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "^0.67.3",
