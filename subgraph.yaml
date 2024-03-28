@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: mantle
+    network: matic
     source:
-      address: "0xAAA32926fcE6bE95ea2c51cB4Fcb60836D320C42"
+      address: "0x1F98431c8aD98523631AE4a59f267346ea31F984"
       abi: Factory
-      startBlock: 34705175
+      startBlock: 22757547
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -21,7 +21,7 @@ dataSources:
         - Token
       abis:
         - name: Factory
-          file: ./abis/ramses-v2/factory.json
+          file: ./abis/factory.json
         - name: ERC20
           file: ./abis/ERC20.json
         - name: ERC20SymbolBytes
@@ -29,14 +29,14 @@ dataSources:
         - name: ERC20NameBytes
           file: ./abis/ERC20NameBytes.json
         - name: Pool
-          file: ./abis/ramses-v2/pool.json
+          file: ./abis/pool.json
       eventHandlers:
         - event: PoolCreated(indexed address,indexed address,indexed uint24,int24,address)
           handler: handlePoolCreated
 templates:
   - kind: ethereum/contract
     name: Pool
-    network: mantle
+    network: matic
     source:
       abi: Pool
     mapping:
@@ -49,9 +49,9 @@ templates:
         - Token
       abis:
         - name: Pool
-          file: ./abis/ramses-v2/pool.json
+          file: ./abis/pool.json
         - name: Factory
-          file: ./abis/ramses-v2/factory.json
+          file: ./abis/factory.json
         - name: ERC20
           file: ./abis/ERC20.json
       eventHandlers:
