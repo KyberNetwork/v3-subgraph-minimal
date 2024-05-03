@@ -30,7 +30,7 @@ type Pool @entity {
   # token1
   token1: Token!
   # fee amount
-  feeTier: BigInt!
+  # feeTier: BigInt!
   # tickSpacing
   tickSpacing: BigInt!
   # in range liquidity
