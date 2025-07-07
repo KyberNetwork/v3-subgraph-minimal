@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: optimism
+    network: unichain
     source:
-      address: "0xCc0bDDB707055e04e497aB22a59c2aF4391cd12F"
+      address: "0x04625B046C69577EfC40e6c0Bb83CDBAfab5a55F"
       abi: Factory
-      startBlock: 121501661
+      startBlock: 9386588
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -36,7 +36,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pool
-    network: optimism
+    network: unichain
     source:
       abi: Pool
     mapping:

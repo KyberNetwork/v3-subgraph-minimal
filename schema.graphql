@@ -1,4 +1,4 @@
-type Factory @entity {
+type Factory @entity(immutable: false) {
   # factory address
   id: ID!
   # amount of pools created
@@ -7,7 +7,7 @@ type Factory @entity {
   owner: ID!
 }
 
-type Token @entity {
+type Token @entity(immutable: false) {
   # token address
   id: ID!
   # token symbol
@@ -18,7 +18,7 @@ type Token @entity {
   decimals: BigInt!
 }
 
-type Pool @entity {
+type Pool @entity(immutable: false) {
   # pool address
   id: ID!
   # creation
@@ -41,7 +41,7 @@ type Pool @entity {
   tick: BigInt
 }
 
-type Tick @entity {
+type Tick @entity(immutable: false) {
   # format: <pool address>#<tick index>
   id: ID!
   # pool address
