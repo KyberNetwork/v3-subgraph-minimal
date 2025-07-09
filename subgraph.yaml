@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: unichain
+    network: hyperevm
     source:
-      address: "0x04625B046C69577EfC40e6c0Bb83CDBAfab5a55F"
+      address: "0x2E08F5Ff603E4343864B14599CAeDb19918BDCaF"
       abi: Factory
-      startBlock: 9386588
+      startBlock: 2033100
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
@@ -36,7 +36,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pool
-    network: unichain
+    network: hyperevm
     source:
       abi: Pool
     mapping:
