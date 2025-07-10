@@ -1,3 +1,8 @@
 # Uniswap V3 Subgraph
 
-### Subgraph Endpoint 
+## What to do
+
+- yarn install
+- Modify factory in networks.json and src/utils/constants.ts
+- graph build --network <chain>
+- deploy

@@ -1,0 +1,98 @@
+{
+  "arbitrum-one": {
+    "Factory": {
+      "address": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "startBlock": 165
+    }
+  },
+  "avalanche": {
+    "Factory": {
+      "address": "0x740b1c1de25031C31FF4fC9A62f554A55cdC1baD",
+      "startBlock": 27832971
+    }
+  },
+  "base": {
+    "Factory": {
+      "address": "0x33128a8fC17869897dcE68Ed026d694621f6FDfD",
+      "startBlock": 2009445
+    }
+  },
+  "blast-mainnet": {
+    "Factory": {
+      "address": "0x792edAdE80af5fC680d96a2eD80A44247D2Cf6Fd",
+      "startBlock": 400903
+    }
+  },
+  "bsc": {
+    "Factory": {
+      "address": "0x82fa7b2ce2a76c7888a9d3b0a81e0b2ecfd8d40c",
+      "startBlock": 41176898
+    }
+  },
+  "celo": {
+    "Factory": {
+      "address": "0xAfE208a311B21f13EF87E33A90049fC17A7acDEc",
+      "startBlock": 13916355
+    }
+  },
+  "mainnet": {
+    "Factory": {
+      "address": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "startBlock": 12369621
+    }
+  },
+  "matic": {
+    "Factory": {
+      "address": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "startBlock": 22757547
+    }
+  },
+  "optimism": {
+    "Factory": {
+      "address": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "startBlock": 0
+    }
+  },
+  "zksync-era": {
+    "Factory": {
+      "address": "0x1153D1d27A558471eF051c5D2D075d7D07B84A07",
+      "startBlock": 31203158
+    }
+  },
+  "mantle": {
+    "Factory": {
+      "address": "0x0d922Fb1Bc191F64970ac40376643808b4B74Df9",
+      "startBlock": 63795918
+    }
+  },
+  "sonic": {
+    "Factory": {
+      "address": "0xcb2436774C3e191c85056d248EF4260ce5f27A9D",
+      "startBlock": 1693557
+    }
+  },
+  "polygon-zkevm": {
+    "Factory": {
+      "address": "0xff83c3c800Fec21de45C5Ec30B69ddd5Ee60DFC2",
+      "startBlock": 8466867
+    }
+  },
+  "berachain": {
+    "Factory": {
+      "address": "0xCaca5910586473646F294d8FA5530cA9E8E3fc38",
+      "startBlock": 805592
+    }
+  },
+  "unichain": {
+    "Factory": {
+      "address": "0x04625B046C69577EfC40e6c0Bb83CDBAfab5a55F",
+      "startBlock": 9386588
+    }
+  },
+  "hyperevm": {
+    "Factory": {
+      "address": "0xA87c8308722237F6442Ef4762B7287afB84fB191",
+      "startBlock": 6947040
+    }
+  }
+}
