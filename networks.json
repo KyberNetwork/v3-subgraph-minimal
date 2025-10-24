@@ -7,8 +7,8 @@
   },
   "avalanche": {
     "Factory": {
-      "address": "0x740b1c1de25031C31FF4fC9A62f554A55cdC1baD",
-      "startBlock": 27832971
+      "address": "0xAE6E5c62328ade73ceefD42228528b70c8157D0d",
+      "startBlock": 68700645
     }
   },
   "base": {
