@@ -1,0 +1,104 @@
+{
+  "arbitrum-one": {
+    "Factory": {
+      "address": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "startBlock": 165
+    }
+  },
+  "avalanche": {
+    "Factory": {
+      "address": "0xAE6E5c62328ade73ceefD42228528b70c8157D0d",
+      "startBlock": 68700645
+    }
+  },
+  "base": {
+    "Factory": {
+      "address": "0x33128a8fC17869897dcE68Ed026d694621f6FDfD",
+      "startBlock": 2009445
+    }
+  },
+  "berachain": {
+    "Factory": {
+      "address": "0xCaca5910586473646F294d8FA5530cA9E8E3fc38",
+      "startBlock": 805592
+    }
+  },
+  "blast-mainnet": {
+    "Factory": {
+      "address": "0x792edAdE80af5fC680d96a2eD80A44247D2Cf6Fd",
+      "startBlock": 400903
+    }
+  },
+  "bsc": {
+    "Factory": {
+      "address": "0x82fa7b2ce2a76c7888a9d3b0a81e0b2ecfd8d40c",
+      "startBlock": 41176898
+    }
+  },
+  "celo": {
+    "Factory": {
+      "address": "0xAfE208a311B21f13EF87E33A90049fC17A7acDEc",
+      "startBlock": 13916355
+    }
+  },
+  "hyperevm": {
+    "Factory": {
+      "address": "0x32b9dA73215255d50D84FeB51540B75acC1324c2",
+      "startBlock": 16715971
+    }
+  },
+  "linea": {
+    "Factory": {
+      "address": "0xAe334f70A7FC44FCC2df9e6A37BC032497Cf80f1",
+      "startBlock": 21254948
+    }
+  },
+  "mainnet": {
+    "Factory": {
+      "address": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "startBlock": 12369621
+    }
+  },
+  "mantle": {
+    "Factory": {
+      "address": "0x0d922Fb1Bc191F64970ac40376643808b4B74Df9",
+      "startBlock": 63795918
+    }
+  },
+  "matic": {
+    "Factory": {
+      "address": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "startBlock": 22757547
+    }
+  },
+  "optimism": {
+    "Factory": {
+      "address": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "startBlock": 0
+    }
+  },
+  "polygon-zkevm": {
+    "Factory": {
+      "address": "0xff83c3c800Fec21de45C5Ec30B69ddd5Ee60DFC2",
+      "startBlock": 8466867
+    }
+  },
+  "sonic": {
+    "Factory": {
+      "address": "0xcb2436774C3e191c85056d248EF4260ce5f27A9D",
+      "startBlock": 1693557
+    }
+  },
+  "unichain": {
+    "Factory": {
+      "address": "0x04625B046C69577EfC40e6c0Bb83CDBAfab5a55F",
+      "startBlock": 9386588
+    }
+  },
+  "zksync-era": {
+    "Factory": {
+      "address": "0x1153D1d27A558471eF051c5D2D075d7D07B84A07",
+      "startBlock": 31203158
+    }
+  }
+}

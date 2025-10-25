@@ -1,9 +1,9 @@
 /* eslint-disable prefer-const */
 import { Address, BigInt } from '@graphprotocol/graph-ts'
 import { isNullEthValue } from '.'
-import { ERC20 } from '../types/Factory/ERC20'
-import { ERC20NameBytes } from '../types/Factory/ERC20NameBytes'
-import { ERC20SymbolBytes } from '../types/Factory/ERC20SymbolBytes'
+import { ERC20 } from '../../generated/Factory/ERC20'
+import { ERC20NameBytes } from '../../generated/Factory/ERC20NameBytes'
+import { ERC20SymbolBytes } from '../../generated/Factory/ERC20SymbolBytes'
 import { StaticTokenDefinition } from './staticTokenDefinition'
 
 export function fetchTokenSymbol(tokenAddress: Address): string {

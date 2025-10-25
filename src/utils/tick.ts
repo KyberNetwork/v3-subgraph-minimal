@@ -1,7 +1,7 @@
 /* eslint-disable prefer-const */
 import { BigInt } from '@graphprotocol/graph-ts'
-import { Tick } from '../types/schema'
-import { Mint as MintEvent } from '../types/templates/Pool/Pool'
+import { Tick } from '../../generated/schema'
+import { Mint as MintEvent } from '../../generated/templates/Pool/Pool'
 import { ZERO_BI } from './constants'
 
 export function createTick(tickId: string, tickIdx: i32, poolId: string, event: MintEvent): Tick {

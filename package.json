@@ -4,7 +4,7 @@
   "repository": "https://github.com/lehainam-dev/v3-subgraph-minimal",
   "license": "GPL-3.0-or-later",
   "scripts": {
-    "codegen": "graph codegen --output-dir src/types/",
+    "codegen": "graph codegen",
     "build": "graph build"
   },
   "dependencies": {

@@ -1,9 +1,9 @@
 /* eslint-disable prefer-const */
 import { Address, BigDecimal, BigInt } from '@graphprotocol/graph-ts'
-import { Factory as FactoryContract } from '../types/templates/Pool/Factory'
+import { Factory as FactoryContract } from '../../generated/templates/Pool/Factory'
 
 export const ADDRESS_ZERO = '0x0000000000000000000000000000000000000000'
-export const FACTORY_ADDRESS = '0x2E08F5Ff603E4343864B14599CAeDb19918BDCaF'
+export const FACTORY_ADDRESS = '0x32b9dA73215255d50D84FeB51540B75acC1324c2'
 
 export let ZERO_BI = BigInt.fromI32(0)
 export let ONE_BI = BigInt.fromI32(1)

@@ -1,12 +1,12 @@
 /* eslint-disable prefer-const */
 import { BigInt } from '@graphprotocol/graph-ts'
-import { Pool, Tick } from '../types/schema'
+import { Pool, Tick } from '../../generated/schema'
 import {
   Burn as BurnEvent,
   Initialize,
   Mint as MintEvent,
   Swap as SwapEvent
-} from '../types/templates/Pool/Pool'
+} from '../../generated/templates/Pool/Pool'
 import { createTick } from '../utils/tick'
 
 export function handleInitialize(event: Initialize): void {

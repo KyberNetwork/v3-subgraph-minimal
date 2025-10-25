@@ -1,8 +1,8 @@
 /* eslint-disable prefer-const */
 import { BigInt, log } from '@graphprotocol/graph-ts'
-import { PoolCreated } from '../types/Factory/Factory'
-import { Factory, Pool, Token } from '../types/schema'
-import { Pool as PoolTemplate } from '../types/templates'
+import { PoolCreated } from '../../generated/Factory/Factory'
+import { Factory, Pool, Token } from '../../generated/schema'
+import { Pool as PoolTemplate } from '../../generated/templates'
 import { fetchTokenDecimals, fetchTokenName, fetchTokenSymbol } from '../utils/token'
 import { ADDRESS_ZERO, FACTORY_ADDRESS, ONE_BI, ZERO_BI } from './../utils/constants'
 
