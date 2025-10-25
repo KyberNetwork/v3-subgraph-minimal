@@ -13,8 +13,8 @@
   },
   "base": {
     "Factory": {
-      "address": "0x33128a8fC17869897dcE68Ed026d694621f6FDfD",
-      "startBlock": 2009445
+      "address": "0xaDe65c38CD4849aDBA595a4323a8C7DdfE89716a",
+      "startBlock": 36953918
     }
   },
   "berachain": {
