@@ -9,8 +9,8 @@ dataSources:
     network: monad
     source:
       abi: Factory
-      address: "0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865"
-      startBlock: 25819360
+      address: "0xfd9c7369347E3b0a80e65223384831B2926ff4D0"
+      startBlock: 35605000
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
