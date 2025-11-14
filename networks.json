@@ -71,6 +71,12 @@
       "startBlock": 22757547
     }
   },
+  "monad": {
+    "Factory": {
+      "address": "0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865",
+      "startBlock": 25819360
+    }
+  },
   "optimism": {
     "Factory": {
       "address": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
