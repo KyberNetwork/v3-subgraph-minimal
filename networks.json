@@ -89,6 +89,12 @@
       "startBlock": 8466867
     }
   },
+  "robinhood-mainnet": {
+    "Factory": {
+      "address": "0x1f7d7550B1b028f7571E69A784071F0205FD2EfA",
+      "startBlock": 8930
+    }
+  },
   "sonic": {
     "Factory": {
       "address": "0xcb2436774C3e191c85056d248EF4260ce5f27A9D",
