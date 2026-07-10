@@ -9,8 +9,8 @@ dataSources:
     network: robinhood-mainnet
     source:
       abi: Factory
-      address: "0x1f7d7550B1b028f7571E69A784071F0205FD2EfA"
-      startBlock: 8930
+      address: "0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865"
+      startBlock: 535378
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
